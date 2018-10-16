@@ -136,24 +136,3 @@ def get_data(query_name, cookie):
         print('微信下:%s未获取到数据' % query_name)
         return None
 
-
-if __name__ == '__main__':
-    # cookie = '_gscu_867320846=26975698xi8dnn44; loginHistoryRecorded=0; TRACK_DETECTED=1.0.1; ' \
-    #          'TRACK_BROWSER_ID=3ba3dbb5a3f12da2e8f9a831d912617e; Hm_lvt_28390dde54d52b2842a44c05fcdb31f7=1527060999; ' \
-    #          'TOUR_GUEST_RANK_DETAIL=1; Hm_lvt_29d7c655e7d1db886d67d7b9b3846aca=1528081253; ' \
-    #          'Hm_lpvt_29d7c655e7d1db886d67d7b9b3846aca=1528081253; _gscbrs_867320846=1; ' \
-    #          'Hm_lvt_b96f95878b55be2cf49fb3c099aea393=1528081254; ' \
-    #          'Hm_lpvt_b96f95878b55be2cf49fb3c099aea393=1528081254; PHPSESSID=kge4r2kubo3c0k7sstb5vssv97; ' \
-    #          'aLastLoginTime=1528081216; _gscs_867320846=280812534f03gt43|pv:2; ' \
-    #          'Hm_lvt_5ff3a7941ce54a1ba102742f48f181ab=1528081314; ' \
-    #          'Hm_lpvt_5ff3a7941ce54a1ba102742f48f181ab=1528081314; ' \
-    #          '_pk_ref.2.c366=%5B%22%22%2C%22%22%2C1528081315%2C%22http%3A%2F%2Fwww.weiboyi.com%2F%22%5D; ' \
-    #          '_pk_id.2.c366=c079ad01fd4fe5f6.1528081315.1.1528081315.1528081315.; _pk_ses.2.c366=*; ' \
-    #          'TRACK_USER_ID=454771; TRACK_IDENTIFY_AT=2018-06-04T03%3A01%3A54.772Z; ' \
-    #          'TRACK_SESSION_ID=755639ebc96646931492a61cbad44150 '
-    cookie = get_cookies('http://chuanbo.weiboyi.com/hworder/sina/index')
-    # cookie = 'rememberusername=;aLastLoginTime=1528708797;TY_SESSION_ID=b913761b-d6c9-4228-9311-a24eb420353f;PHPSESSID=dnhdb6jd2cj1hpe2u4k6b3p710;_pk_ses.2.c366=*;_gscu_867320846=28708884elu3b212;_gscbrs_867320846=1;Hm_lvt_5ff3a7941ce54a1ba102742f48f181ab=1528708899;username=;loginHistoryRecorded=0;Hm_lpvt_5ff3a7941ce54a1ba102742f48f181ab=1528708899;_pk_id.2.c366=bfa76453cf38eaa4.1528708885.1.1528708899.1528708885.;_gscs_867320846=28708884xz0e2u12|pv:2;TRACK_USER_ID=454771;TRACK_IDENTIFY_AT=2018-06-11T09%3A21%3A38.834Z;TRACK_SESSION_ID=09e29d18d563e34505fe1463b2df6e45;TRACK_DETECTED=1.0.1;TRACK_BROWSER_ID=012b10a580d91c423d51ae04172d2735;sajssdk_2015_cross_new_user=1;sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22454771%22%2C%22%24device_id%22%3A%22163ee26a0bb818-0000eba871abe8-737356c-1049088-163ee26a0bc3d8%22%2C%22props%22%3A%7B%7D%2C%22first_id%22%3A%22163ee26a0bb818-0000eba871abe8-737356c-1049088-163ee26a0bc3d8%22%7D'
-    name = ['lengtoo','rmrbwx']
-    for i in range(len(name)):
-        item = get_data(name[i], cookie)
-        print(item)

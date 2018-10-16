@@ -79,8 +79,3 @@ def getvideoprice(query_name,cookie):
                         weibo_id, weibo_type, sign = re.findall(regex, url)[0]
                         item = getprice(weibo_id,weibo_type,sign,cookie)
                         return item
-if __name__ == '__main__':
-    cookie = get_cookies('http://chuanbo.weiboyi.com/hworder/sina/index')
-    name = ['1061937080','kwaiinsight']
-    for i in name:
-        getvideoprice(i,cookie)

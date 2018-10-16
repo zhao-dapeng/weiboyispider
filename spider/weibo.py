@@ -123,9 +123,3 @@ def get_data(query_name, cookie):
     else:
         print('微博下:%s未获取到数据' % query_name)
         return None
-
-if __name__ == '__main__':
-    cookie = get_cookies('http://chuanbo.weiboyi.com/hworder/sina/index')
-    name = '杨幂'
-    item = get_data(name, cookie)
-    print('bbbbbbbbbbb',item)
