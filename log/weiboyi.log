@@ -1,0 +1,8 @@
+[2018-10-16 19:00:57,262][130892104][save_data.py][line: 19][ERROR] ## 执行SQL发生异常 原因是：[Errno 22] Invalid argument
+[2018-10-16 19:00:57,262][130892104][save_data.py][line: 20][ERROR] ## SQL为：update PlatformIPAccount set avgReadCount = 94597,avgLikeCount = 1854 WHERE accountID = 'bb2b2bb'
+[2018-10-16 19:00:57,359][130892104][save_data.py][line: 19][ERROR] ## 执行SQL发生异常 原因是：[Errno 22] Invalid argument
+[2018-10-16 19:00:57,360][130892104][save_data.py][line: 20][ERROR] ## SQL为：update PlatformIPAccountPrice set price='131600',isOriginal=1 where id='67302'
+[2018-10-16 19:00:57,436][130892104][save_data.py][line: 19][ERROR] ## 执行SQL发生异常 原因是：[Errno 22] Invalid argument
+[2018-10-16 19:00:57,436][130892104][save_data.py][line: 20][ERROR] ## SQL为：update PlatformIPAccountPrice set price='53300',isOriginal=1 where id='263907'
+[2018-10-16 19:00:57,513][130892104][save_data.py][line: 19][ERROR] ## 执行SQL发生异常 原因是：[Errno 22] Invalid argument
+[2018-10-16 19:00:57,514][130892104][save_data.py][line: 20][ERROR] ## SQL为：update PlatformIPAccountPrice set price='0',isOriginal=1 where id='460500'
